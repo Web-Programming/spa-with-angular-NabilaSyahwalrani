@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Housing } from './housing.model';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-lokasi-perumahan',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './lokasi-perumahan.html',
   styleUrl: './lokasi-perumahan.css',
 })

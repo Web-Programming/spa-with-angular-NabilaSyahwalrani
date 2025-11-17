@@ -13,3 +13,5 @@ export interface Housing {
     description?: string;
     postedDays?: number;
   }
+
+  //? artinya optional, jadi tidak wajib diisi
